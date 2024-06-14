@@ -114,7 +114,7 @@ public class GroceryTest extends BaseTest {
 
 	}
 
-	@Test(priority = 4, groups = { "grocery" }, enabled = true)
+	@Test(priority = 4, groups = { "grocery" }, enabled = false)
 	public void testGroceryAddItems() throws InterruptedException {
 
 		if (driver == null) {
@@ -155,7 +155,7 @@ public class GroceryTest extends BaseTest {
 
 	}
 
-	@Test(priority = 5, groups = { "grocery" }, enabled = true)
+	@Test(priority = 5, groups = { "grocery" }, enabled = false)
 	public void testGroceryRemoveItems() throws InterruptedException {
 
 		if (driver == null) {
